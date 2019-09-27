@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/css/uikit.min.css" />
+	<!-- UIkit JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit-icons.min.js"></script>
+	<!-- sanitize.css -->
+	<link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+	<style>
+		.uk-navbar-container:not(.uk-navbar-transparent) {
+			background: rgb(227,108,10);
+		}
+		.uk-navbar-nav>li.uk-active>a,
+		div[uk-navbar]>a {
+			color: #fff;
+		}
+		.uk-navbar-nav>li>a {
+			color: rgba(255,255,255,.5);
+		}
+		.bg-brand {
+			background-color: rgb(227,108,10);
+		}
+		.cl-brand {
+			color: rgb(227,108,10);
+		}
+		.project-image {
+
+		}
+	</style>
+</head>
+<body>
+	<div class="uk-section-primary uk-preserve-color bg-brand">
+	    <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+	        <nav class="uk-navbar-container">
+	            <div class="uk-container uk-container-expand">
+	                <div uk-navbar>
+	                	<a href="https://github.com/BossBele" style="height: ;" class="uk-button uk-button-default uk-position-center-right">GitHub<span class="uk-margin-left" uk-icon="icon: github-alt"></span></a>
+	                    <ul class="uk-navbar-nav">
+							<li class="uk-active"><a href="#">BossBele</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="uk-section uk-light">
+			<div class="uk-container">
+				<p>Hello, I’m Adam. I’m a Student, Writer, Developer and aspiring Entrepreneur living in Dar es Salaam, Tanzania. I am a fan of music and football.</p>
+				<p>I'm a 22 years old Tanzanian Web, Mobile &amp; Desktop Applications Developer based in Dar es Salaam. I am mostly
+				obsessed with the User Experience and User Interface side of computer software.<br>
+				I like exploring different realms of thought since I believe that it is the only thing that makes a person greater than his
+				art.
+				</p>
+			</div>
+	    </div>
+		<div>
+			<div class="uk-tile uk-tile-default">
+				<div>
+					<p class="uk-h4">Cropzee</p>
+					<a href="https://bossbele.github.io/cropzee" target="_blank" rel="noopener" class="uk-button uk-button-secondary uk-float-right">View Project</a>
+				</div>
+				<p class="uk-h4">Cropzee (image cropper) is a free, and open source customizable jQuery plugin to crop and rotate pictures before submitting for upload.</p>
+				<img class="project-image" data-src="cropzee.png" width="100%" height="300" alt="" uk-img>
+			</div>
+		</div>
+		<div>
+			<div class="uk-tile uk-tile-secondary">
+				<div>
+					<p class="uk-h4">Belerise</p>
+					<a href="https://bossbele.github.io/belerise" target="_blank" rel="noopener" class="uk-button uk-button-default uk-float-right">View Project</a>
+				</div>
+				<p class="uk-h4">A simple jQuery plugin to add gradients from a list of beautifully crafted gradients from https://uigradients.com</p>
+				<img class="project-image" data-src="belerise.png" width="100%" height="300" alt="" uk-img>
+			</div>
+		</div>
+		<div>
+			<div class="uk-tile uk-tile-muted">
+				<div>
+					<ul class="uk-iconnav uk-flex-between">
+						<li><a href="https://github.com/BossBele" uk-icon="icon: github-alt"></a></li>
+						<li><a href="https://linkedin.com/in/adambeleko" uk-icon="icon: linkedin"></a></li>
+						<li><a href="https://twitter.com/adambeleko" uk-icon="icon: twitter"></a></li>
+						<li><a href="https://facebook.com/adam.beleko.7" uk-icon="icon: facebook"></a></li>
+						<li><a href="https://instagram.com/bossbele" uk-icon="icon: instagram"></a></li>
+						<li><a href="mailto:adambeleko@gmail.com?Subject=Hello" uk-icon="icon: google"></a></li>
+						<li><a href="https://youtube.com/user/adambelleb" uk-icon="icon: youtube"></a></li>
+						<li><a href="https://soundcloud.com/bossbelle" uk-icon="icon: soundcloud"></a></li>
+						<li><a href="https://wa.me/255757590414?text=Hello%20Adam" uk-icon="icon: whatsapp"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
